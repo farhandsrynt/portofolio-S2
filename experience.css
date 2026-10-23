@@ -14,5 +14,39 @@
 .experience-document-actions a:hover,.experience-document-actions button:hover{background:#ffffff0c;border-color:#9b8cff77}
 .experience-document-actions a{color:var(--text)}
 .experience-document-actions button{color:var(--purple)}
+.vision-section{padding-top:85px}
+.brand-mark{overflow:hidden;border-radius:50%;background:transparent}
+.brand-mark img{display:block;width:100%;height:100%;aspect-ratio:1;border-radius:50%;clip-path:circle(50% at 50% 50%);object-fit:cover;object-position:center 22%}
+.profile-monogram{overflow:hidden;border-radius:50%;background:transparent}
+.profile-monogram img{display:block;width:100%;height:100%;aspect-ratio:1;border-radius:50%;clip-path:circle(50% at 50% 50%);object-fit:cover;object-position:center 22%}
+.vision-heading-main{display:flex;align-items:center;gap:22px}
+.vision-profile-photo{width:104px;height:104px;flex:0 0 104px;aspect-ratio:1;object-fit:cover;object-position:center 22%;border:3px solid #a99bff;border-radius:50%;clip-path:circle(50% at 50% 50%);box-shadow:0 0 0 6px #a99bff1c,0 12px 30px #0005}
+.vision-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.vision-card{padding:25px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,#1a1f37,#13172a)}
+.vision-card p{font-size:12px;line-height:1.9;color:var(--muted);margin-top:18px}
+.mission-card{display:grid;grid-template-columns:.7fr 1.3fr;gap:35px;margin-top:15px;padding:28px;border:1px solid #a99bff35;border-radius:20px;background:linear-gradient(120deg,#1d203b,#161a30)}
+.mission-heading h3{font:600 23px/1.35 var(--font-display);margin-top:14px}
+.mission-list{display:grid;gap:14px;list-style:none}
+.mission-list li{display:flex;align-items:flex-start;gap:12px}
+.mission-list li>span{display:grid;place-items:center;flex:0 0 30px;height:30px;border-radius:9px;background:#a99bff20;color:var(--purple);font:700 11px var(--font-display)}
+.mission-list p{font-size:12px;line-height:1.8;color:var(--muted)}
+.reflection-card .reflection-subtitle{flex:0 0 auto;margin-top:10px}
+.reflection-expand{margin-top:16px}
+.reflection-expand summary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;color:var(--purple);font-size:11px;font-weight:700;cursor:pointer;list-style:none;transition:background .2s,border-color .2s}
+.reflection-expand summary::-webkit-details-marker{display:none}
+.reflection-expand summary::marker{content:""}
+.reflection-expand summary:hover{background:#ffffff0c;border-color:#9b8cff77}
+.reflection-expand summary span{font-size:16px;line-height:1;transition:transform .2s}
+.reflection-expand[open] summary span{transform:rotate(45deg)}
+.reflection-expand:not([open]) .reflection-details{display:none}
+.reflection-expand[open] .reflection-details{display:grid;gap:16px;margin-top:18px}
+.reflection-card .reflection-detail p{flex:initial;margin-top:6px;font-size:11px;line-height:1.75;color:var(--muted);text-align:justify}
+.reflection-detail>span{display:block;color:var(--purple);font-size:9px;font-weight:700;letter-spacing:1.5px}
+.reflection-detail p strong{color:#e5e4f4;font-weight:600}
+.reflection-4c{display:grid;gap:7px}
+.reflection-card .reflection-4c p{margin-top:0}
+.reflection-tags{margin:15px 0}
+.reflection-card .card-actions{margin-top:auto}
+@media(max-width:900px){.vision-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mission-card{grid-template-columns:1fr;gap:18px}}
 @media(max-width:900px){.action-list{grid-template-columns:1fr}}
-@media(max-width:650px){.experience-section{padding-top:60px}.experience-grid{grid-template-columns:1fr}.experience-card-plan{grid-column:auto}.experience-card{padding:21px}.experience-document-actions{align-items:stretch;flex-direction:column}.experience-document-actions a,.experience-document-actions button{text-align:center}}
+@media(max-width:650px){.vision-section{padding-top:60px}.vision-heading-main{align-items:flex-start;gap:15px}.vision-profile-photo{width:76px;height:76px;flex-basis:76px}.vision-grid{grid-template-columns:1fr}.vision-card{padding:21px}.mission-card{padding:21px}.mission-heading h3{font-size:20px}.experience-section{padding-top:60px}.experience-grid{grid-template-columns:1fr}.experience-card-plan{grid-column:auto}.experience-card{padding:21px}.experience-document-actions{align-items:stretch;flex-direction:column}.experience-document-actions a,.experience-document-actions button{text-align:center}}

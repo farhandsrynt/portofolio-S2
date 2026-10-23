@@ -12,15 +12,29 @@ const reflections = [
     number: "01",
     title: "Refleksi Asesmen",
     subtitle: "Asesmen pembelajaran",
-    description: "Dokumen refleksi tentang asesmen pembelajaran.",
+    reflection: [
+      { label: "Keterkaitan / Connection", text: "Materi Pembelajaran Mendalam dan Asesmen Lanjut berkaitan dengan peran guru dalam merancang pembelajaran yang mendorong pemahaman mendalam." },
+      { label: "Tantangan / Challenge", text: "Asesmen perlu melampaui pengukuran hasil dan membantu mengenali proses serta kebutuhan belajar peserta didik." },
+      { label: "Konsep / Concept", text: "Asesmen diagnostik, formatif, dan autentik dapat digunakan untuk melihat kebutuhan, perkembangan, dan penerapan pemahaman." },
+      { label: "Perubahan / Change", text: "Saya akan menggunakan hasil asesmen untuk menyesuaikan pembelajaran dan mendukung perkembangan peserta didik." }
+    ],
+    artifact: "Artefak yang dibahas meliputi pemetaan alur asesmen diagnostik dan rancangan tugas atau asesmen autentik. Artefak ini menunjukkan bagaimana kebutuhan awal peserta didik dapat dikenali dan pemahaman mereka dinilai melalui proses serta hasil belajar.",
+    practicalLink: "Dalam pembelajaran Broadcasting dan Perfilman, asesmen diagnostik dapat digunakan untuk memetakan pengetahuan awal dan keterampilan produksi peserta didik. Selama proyek, umpan balik formatif membantu mereka memperbaiki karya, sedangkan rubrik autentik menilai proses kerja, kreativitas, dan hasil akhir.",
     file: "pdf/Refleksi Assesmen.pdf",
-    tags: ["Connection", "Challenge", "Concept", "Change"]
+    tags: ["4C", "Analisis Artefak", "Kaitan Praktis"]
   },
   {
     number: "02",
     title: "Refleksi Pendidikan Inklusi",
     subtitle: "Pendidikan inklusi",
-    description: "Dokumen refleksi tentang pendidikan inklusi.",
+    reflection: [
+      { label: "Keterkaitan / Connection", text: "Pendidikan Inklusi berhubungan dengan tanggung jawab guru untuk mengenali keragaman potensi, kebutuhan, dan hambatan belajar." },
+      { label: "Tantangan / Challenge", text: "Peserta didik memiliki kebutuhan yang beragam, sehingga satu pendekatan belum tentu mendukung semua orang." },
+      { label: "Konsep / Concept", text: "Guru berperan sebagai fasilitator yang menyesuaikan strategi dan dukungan belajar secara inklusif." },
+      { label: "Perubahan / Change", text: "Saya akan mengenali kebutuhan peserta didik sebelum merancang dukungan belajar yang adil dan tidak memberi stigma." }
+    ],
+    artifact: "Artefak refleksi menyoroti uraian pengalaman belajar dan analisis tentang keragaman kebutuhan peserta didik, termasuk pentingnya mengenali potensi serta hambatan sebelum menentukan dukungan dan strategi pembelajaran.",
+    practicalLink: "Saat mengajar Broadcasting dan Perfilman, saya dapat menyediakan pilihan cara belajar dan menunjukkan pemahaman—misalnya melalui demonstrasi, panduan visual, latihan bertahap, atau proyek kelompok dengan pembagian peran yang fleksibel. Saya juga akan memberi pendampingan dan umpan balik sesuai kebutuhan.",
     file: "pdf/Refleksi Pendidikan Inklusi.pdf",
     tags: ["4C", "Analisis Artefak", "Kaitan Praktis"]
   },
@@ -28,7 +42,14 @@ const reflections = [
     number: "03",
     title: "Refleksi Projek Kepemimpinan",
     subtitle: "Projek kepemimpinan",
-    description: "Dokumen refleksi tentang projek kepemimpinan.",
+    reflection: [
+      { label: "Keterkaitan / Connection", text: "Projek Kepemimpinan menghubungkan peran guru dengan kemampuan memimpin kolaborasi dan merancang perubahan yang menjawab kebutuhan peserta didik." },
+      { label: "Tantangan / Challenge", text: "Penggunaan AI yang semakin dekat dengan siswa perlu diarahkan agar tidak menimbulkan ketergantungan dan menghambat kemandirian berpikir." },
+      { label: "Konsep / Concept", text: "Kepemimpinan kolaboratif dan literasi digital membantu peserta didik menggunakan teknologi secara bijak dan bertanggung jawab." },
+      { label: "Perubahan / Change", text: "Saya akan mengarahkan penggunaan AI sebagai alat bantu, bukan pengganti proses berpikir dan berkarya." }
+    ],
+    artifact: "Artefak projek berupa video Iklan Layanan Masyarakat (ILM) berjudul “Bijak Menggunakan AI”, yang dikembangkan melalui tahapan praproduksi, produksi, pascaproduksi, dan evaluasi secara kolaboratif.",
+    practicalLink: "Projek serupa dapat diterapkan di kelas dengan mengajak peserta didik meriset isu, menyusun naskah dan storyboard, lalu memproduksi media kampanye. Prosesnya melatih kepemimpinan, pembagian tanggung jawab, kolaborasi, serta penggunaan AI yang kritis dan beretika.",
     file: "pdf/Refleksi PK.pdf",
     tags: ["4C", "Analisis Artefak", "Kaitan Praktis"]
   },
@@ -36,9 +57,16 @@ const reflections = [
     number: "04",
     title: "Refleksi Pembelajaran Sosial Emosional",
     subtitle: "Pembelajaran sosial emosional",
-    description: "Dokumen refleksi tentang pembelajaran sosial emosional.",
+    reflection: [
+      { label: "Keterkaitan / Connection", text: "Pembelajaran Sosial Emosional mendukung kemampuan guru dan peserta didik mengenali emosi, berempati, membangun hubungan, serta mengambil keputusan." },
+      { label: "Tantangan / Challenge", text: "Perbedaan pendapat dalam kerja kelompok perlu dikelola melalui komunikasi yang baik dan sikap saling menghargai." },
+      { label: "Konsep / Concept", text: "CASEL mencakup kesadaran diri, pengelolaan diri, kesadaran sosial, keterampilan berelasi, dan pengambilan keputusan yang bertanggung jawab." },
+      { label: "Perubahan / Change", text: "Saya akan membangun suasana belajar yang aman, menghargai gagasan, dan terbuka terhadap umpan balik." }
+    ],
+    artifact: "Artefak yang tercermin dalam refleksi adalah proses kolaborasi penulisan naskah: pengembangan ide, pembagian kerja, pemberian umpan balik, revisi, dan refleksi. Proses ini menunjukkan keterampilan sosial emosional yang digunakan dalam kegiatan produksi.",
+    practicalLink: "Dalam pembelajaran Produksi Siaran Program Televisi dan Penulisan Naskah, peserta didik dapat berlatih menyepakati ide, berbagi peran, menyampaikan kritik dengan santun, dan merevisi naskah bersama. Guru dapat memfasilitasi refleksi agar mereka mengenali kontribusi, emosi, serta perkembangan kerja tim.",
     file: "pdf/Reflesksi Pembelajaran Sosial Emosional.pdf",
-    tags: ["4C", "Artefak", "Perubahan"]
+    tags: ["4C", "Analisis Artefak", "Kaitan Praktis"]
   }
 ];
 
@@ -130,7 +158,17 @@ function renderReflections() {
         <span class="status-chip">LK 2 · SEMESTER 2</span>
       </div>
       <h3>${escapeHTML(item.title)}</h3>
-      <p><strong>${escapeHTML(item.subtitle)}</strong><br>${escapeHTML(item.description)}</p>
+      <p class="reflection-subtitle"><strong>${escapeHTML(item.subtitle)}</strong></p>
+      <details class="reflection-expand">
+        <summary>Lihat uraian refleksi <span aria-hidden="true">＋</span></summary>
+        <div class="reflection-details">
+          <div class="reflection-detail reflection-4c"><span>REFLEKSI 4C</span>
+            ${item.reflection.map(part => `<p><strong>${escapeHTML(part.label)}:</strong> ${escapeHTML(part.text)}</p>`).join("")}
+          </div>
+          <div class="reflection-detail"><span>ANALISIS ARTEFAK</span><p>${escapeHTML(item.artifact)}</p></div>
+          <div class="reflection-detail"><span>KAITAN PRAKTIS</span><p>${escapeHTML(item.practicalLink)}</p></div>
+        </div>
+      </details>
       <div class="reflection-tags">${item.tags.map(tag => `<span>${escapeHTML(tag)}</span>`).join("")}</div>
       <div class="card-actions">
         <a href="${escapeHTML(item.file)}">Buka PDF ↗</a>
